@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    width: 100%;
+    background-color: thistle;
+   
+}
+
+
+table{
+    width: 90%;
+    height: 40vh;
+    margin: 25vh auto;
+    font-size: 20px;
+
+}
+
+thead{
+    height: 50px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+tbody{
+    text-align: center;
+    height: 40px;
+    color: rgb(255, 15, 15);
+    background-color: rgb(236, 222, 228);
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+tbody tr:hover{
+    background-color: rgb(193, 142, 241);
+    transition: 1s;
+}
